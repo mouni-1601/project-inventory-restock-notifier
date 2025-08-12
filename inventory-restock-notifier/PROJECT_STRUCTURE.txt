@@ -1,0 +1,63 @@
+inventory-restock-notifier/
+├── backend/
+│   ├── logs/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   └── logger.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   └── itemController.js
+│   │   ├── middleware/
+│   │   │   └── auth.js
+│   │   ├── models/
+│   │   │   ├── Item.js
+│   │   │   └── User.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   └── items.js
+│   │   ├── tests/
+│   │   │   ├── auth.test.js
+│   │   │   └── items.test.js
+│   │   ├── utils/
+│   │   └── app.js
+│   ├── .env
+│   └── package.json
+├── database/
+│   ├── queries.sql
+│   ├── schema.sql
+│   ├── setup.sql
+│   └── test-data.sql
+├── frontend/
+│   └── inventory-frontend/
+│       ├── src/
+│       │   ├── app/
+│       │   │   ├── app.component.ts
+│       │   │   └── app.module.ts
+│       │   ├── assets/
+│       │   ├── components/
+│       │   │   ├── dashboard.component.ts
+│       │   │   ├── login.component.spec.ts
+│       │   │   └── login.component.ts
+│       │   ├── models/
+│       │   │   ├── item.model.ts
+│       │   │   └── user.model.ts
+│       │   ├── services/
+│       │   │   ├── auth.service.spec.ts
+│       │   │   ├── auth.service.ts
+│       │   │   └── item.service.ts
+│       │   ├── index.html
+│       │   ├── main.ts
+│       │   ├── polyfills.ts
+│       │   └── styles.css
+│       ├── angular.json
+│       ├── karma.conf.js
+│       ├── package.json
+│       ├── tsconfig.app.json
+│       ├── tsconfig.json
+│       └── tsconfig.spec.json
+├── PACKING_TAPE_EXAMPLE.md
+├── PROJECT_PROMPTS.md
+├── PROJECT_STRUCTURE.txt
+├── README.md
+└── SETUP_GUIDE.md
